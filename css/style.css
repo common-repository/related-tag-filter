@@ -1,0 +1,121 @@
+#related_tag_filter {
+	background: #EEE;
+	border: 1px solid #DDD;
+/*	width: auto 0px;*/
+}
+#sidebar #related_tag_filter h1,
+#sidebar #related_tag_filter h2,
+#sidebar #related_tag_filter h3,
+#sidebar #related_tag_filter h4,
+#sidebar #related_tag_filter h5,
+#sidebar #related_tag_filter h6 {
+	margin: 10px 0 0 0;
+	padding-left: 25px;
+	background: transparent url(../img/tag.gif) no-repeat scroll 5px 1px;
+}
+#sidebar ul #rtf ul li:before {
+	content: "";
+}
+
+#rtf {
+	
+}
+#rtf ul.rtf_removable,
+#rtf ul.rtf_addable {
+	margin: 5px 0 0 0;
+}
+#rtf ul.rtf_removable li{
+	padding-bottom: 4px;
+}
+#rtf .rtf_show-all-link,
+#rtf .rtf_clear-link {
+	display: block;
+	margin: 8px 0 4px 5px;
+}
+.rtf_tags {
+	margin-top: 5px;
+/*	overflow: auto;*/
+	padding: 0;
+}
+.rtf_tags li span {
+	color: #888;
+/*	margin-right:2px;*/
+	position: absolute;
+	right: 5px;
+	bottom: 4px;
+}
+#rtf .rtf_tags li,
+.rtf_tags li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+/*	width: 130px;*/
+}
+.rtf_tags li a {
+	color: #999;
+	border-bottom: 1px solid #CCC;
+	display: block;
+	font-size: 10px;
+	text-align:left;
+	margin: 0 2px;
+	position: relative;
+/*	width: 135px;*/
+}
+#rtf .rtf_tags li a,
+#rtf_dialog .rtf_tags li a {
+	padding: 6px 5px 4px;
+}
+.rtf_tags li a:hover {
+	background-color: #FFF;
+/*	border-bottom:1px solid #DDD;*/
+	text-decoration: none;
+}
+.rtf_removable li a {
+	background-color:#FFF;
+	border:medium none;
+}
+.rtf_removable li a span {
+	background: transparent url(../img/x-remove.gif) no-repeat scroll 0px 0px;
+	display: block;
+	height: 11px;
+	width: 6px;
+}
+.rtf_addable li a {
+/*	background:transparent url(../img/bg_tag.gif) no-repeat scroll 2px 2px;*/
+}
+.rtf_display_modifier li a {
+/*	background-color:#999;*/
+}
+#rtf_dialog {
+	display: none;
+}
+#rtf_dialog .rtf_tags {
+	width: 670px;
+	overflow: hidden;
+}	
+#rtf_dialog .rtf_tags li, 
+#rtf_dialog .rtf_tags li a {
+	float: left;
+	width: 135px;
+	margin-right: 25px;
+/*	padding: 3px;*/
+}
+#rtf_dialog .rtf_tags li a:hover {
+	background-color: #EEE;
+}
+
+#rtf_sort_tags a {
+/*	color: #FF0000;*/
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: underline;
+/*	margin: 0 4px;	*/
+}
+#rtf_dialog a:focus {
+	outline: none;
+}
+#rtf_sort_tags .active {
+	color: #666;
+	text-decoration: none;
+}
